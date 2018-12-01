@@ -27,7 +27,7 @@ const Page = ({ bodyText, offset, onClick, image, header, subHeader }) => (
     </ParallaxLayer>
     <ParallaxLayer
       offset={offset}
-      speed={0}
+      speed={0.8}
       onClick={onClick}
       className="pageBackground"
       style={{ backgroundImage: "url(" + image + ")" }}
@@ -41,7 +41,7 @@ const Page = ({ bodyText, offset, onClick, image, header, subHeader }) => (
       <Spring
         reset={true}
         delay={400}
-        config={{ tension: 120, friction: 32 }}
+        config={{ tension: 140, friction: 32 }}
         from={{ transform: "translate3d(0,-40px,0)", opacity: 0 }}
         to={{ transform: "translate3d(0,0,0)", opacity: 1 }}
       >

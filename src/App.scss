@@ -23,7 +23,7 @@
   max-width: 70%;
   margin-left: 20px;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: white;
 }
 .pageHeader {
@@ -36,4 +36,36 @@
   font-size: 8rem;
   color: white;
   z-index: 500;
+}
+
+.imagePageHeader {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-size: 7.5rem;
+  padding-top: 1%;
+  padding-left: 1%;
+  z-index: 500;
+}
+
+.imagePageBackground {
+  z-index: 300;
+  background-size: 100% 100% !important;
+}
+
+.imagePageHolder {
+  z-index: 400;
+  padding-top: 2%;
+}
+.imagePageImage {
+  display: block;
+  z-index: 700;
+  width: 40%;
+  margin: auto;
+  height: 90%;
+  align-self: middle;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }

@@ -4,7 +4,7 @@ import { Spring } from "react-spring";
 const ImageCard = ({ image, alt, delay, reload }) => {
   return (
     <Spring
-      reset={reload}
+      reset={true}
       delay={delay}
       from={{ transform: "translate3d(0,-40px,0)", opacity: 0 }}
       to={{ transform: "translate3d(0,0,0)", opacity: 1 }}

@@ -19,12 +19,6 @@ class App extends Component {
   state = {
     reload: false
   };
-  resetPage = to => {
-    this.refs.parallax.scrollTo(to);
-    this.setState({
-      reload: true
-    });
-  };
   scroll = to => {
     this.refs.parallax.scrollTo(to);
   };
@@ -114,7 +108,7 @@ class App extends Component {
           image={ballardNordicTrees}
           offset={7}
           header={""}
-          onClick={() => this.resetPage(8)}
+          onClick={() => this.scroll(8)}
           bodyText={
             " The goal of the museum is to preserve the rich culture of Nordic woodsmen and fishermen who “helped build Ballard into what it is today” (Copeland). With over 80,000 artifacts, the Museum will from here on out, continue to provide valuable insight into Ballard’s history. "
           }

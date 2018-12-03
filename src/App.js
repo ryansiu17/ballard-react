@@ -11,8 +11,9 @@ import ballardBell from "./img/ballardBell.jpg";
 import ballardOld from "./img/ballardOld.jpg";
 import ballardNordicTrees from "./img/ballardNordicTrees.jpg";
 import us from "./img/us.jpg";
-import { Parallax } from "react-spring/dist/addons";
+import { Parallax, ParallaxLayer } from "react-spring/dist/addons";
 import ImageList from "./ImageList";
+import fig from "./img/fig.png";
 
 class App extends Component {
   state = {
@@ -123,7 +124,12 @@ class App extends Component {
           header={"Nordic"}
           offset={8}
           subHeader={" Museum"}
+          onClick={() => this.scroll(9)}
+        />
+        <ParallaxLayer
+          offset={9}
           onClick={() => this.scroll(0)}
+          style={{ backgroundImage: "url(" + fig + ")", zIndex: 1000 }}
         />
       </Parallax>
     );

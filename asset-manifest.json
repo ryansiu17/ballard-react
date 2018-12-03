@@ -1,7 +1,7 @@
 {
   "main.css": "/ballard-react/static/css/main.ff0688ef.chunk.css",
-  "main.js": "/ballard-react/static/js/main.9d143e24.chunk.js",
-  "main.js.map": "/ballard-react/static/js/main.9d143e24.chunk.js.map",
+  "main.js": "/ballard-react/static/js/main.7d047d0d.chunk.js",
+  "main.js.map": "/ballard-react/static/js/main.7d047d0d.chunk.js.map",
   "static/js/1.45263a99.chunk.js": "/ballard-react/static/js/1.45263a99.chunk.js",
   "static/js/1.45263a99.chunk.js.map": "/ballard-react/static/js/1.45263a99.chunk.js.map",
   "runtime~main.js": "/ballard-react/static/js/runtime~main.40f48d6a.js",
@@ -26,6 +26,6 @@
   "static/media/fig.png": "/ballard-react/static/media/fig.fd48d37a.png",
   "static/css/main.ff0688ef.chunk.css.map": "/ballard-react/static/css/main.ff0688ef.chunk.css.map",
   "index.html": "/ballard-react/index.html",
-  "precache-manifest.b9412d55a62f4e296db75a8304ea4779.js": "/ballard-react/precache-manifest.b9412d55a62f4e296db75a8304ea4779.js",
+  "precache-manifest.5691edf0810a4ff943d8d5c3c2970edf.js": "/ballard-react/precache-manifest.5691edf0810a4ff943d8d5c3c2970edf.js",
   "service-worker.js": "/ballard-react/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ballard-react/precache-manifest.b9412d55a62f4e296db75a8304ea4779.js"
+  "/ballard-react/precache-manifest.5691edf0810a4ff943d8d5c3c2970edf.js"
 );
 
 workbox.clientsClaim();

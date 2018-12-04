@@ -65,7 +65,6 @@ class App extends Component {
           image={ballardLumber}
           offset={3}
           header={"Industry"}
-          subHeader={" - Group Topic"}
           reload={this.state.reset3}
           onClick={() => this.scroll(4)}
           bodyText={
